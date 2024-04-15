@@ -28,4 +28,4 @@ https://127.0.0.1:8080/
 
 ## Here is short DEMO how to access UI interface
 
-[![Alt Text](argocd-demo.gif)](argocd-demo.gif)
+[![Alt Text](argocd-access.gif)](argocd-access.gif)
