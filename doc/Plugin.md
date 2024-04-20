@@ -5,11 +5,12 @@ The Kubernetes Resource Usage Plugin is a `kubectl` plugin designed to retrieve 
 
 ## Usage
 ### Installation
-1. Ensure that the script file `kubectl-kubeplugin.sh` is executable and located in a directory included in your system's PATH.
+1. Rename script from kubeplugin to kubectl-kubeplugin
+3. Ensure that the script file `kubectl-kubeplugin` is executable and located in a directory included in your system's PATH.
 2. You can also move the script file to a directory like `/usr/local/bin` to make it accessible system-wide:
 
     ```bash
-    sudo mv kubectl-kubeplugin.sh /usr/local/bin/kubectl-kubeplugin
+    sudo mv kubectl-kubeplugin /usr/local/bin/kubectl-kubeplugin
     sudo chmod +x /usr/local/bin/kubectl-kubeplugin
     ```
 
